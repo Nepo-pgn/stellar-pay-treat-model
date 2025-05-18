@@ -19,8 +19,8 @@
         "cells": [
           {
             "position": {
-              "x": 76.25,
-              "y": 70
+              "x": 80,
+              "y": 40
             },
             "size": {
               "width": 112.5,
@@ -104,28 +104,28 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "bd3f1f6f-dacf-487c-a977-51bbe4351d49"
+                  "id": "153955eb-57cb-4855-8cd1-f81644e71db9"
                 },
                 {
                   "group": "right",
-                  "id": "71ebbeb7-1460-4ed8-8434-0071494bbd38"
+                  "id": "a05692a4-6712-4d97-9964-84bad8ed7c31"
                 },
                 {
                   "group": "bottom",
-                  "id": "9cdd3203-cc81-4a95-a9a0-a69d16819bbd"
+                  "id": "0db3e927-0339-4b5e-a037-55e00d40eda3"
                 },
                 {
                   "group": "left",
-                  "id": "4039df2e-7b5f-4b2f-a25a-1788903003a3"
+                  "id": "27d78f95-7623-4018-ad09-dd3669f7077b"
                 }
               ]
             },
-            "id": "d9d23d50-329c-4a1e-b4a2-edcbea2a6e52",
+            "id": "8ddb3e65-40db-43a5-ae79-f6d4bd2789f0",
             "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User",
-              "description": "People using StellarPay",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -135,8 +135,8 @@
           },
           {
             "position": {
-              "x": 853.75,
-              "y": 370
+              "x": 307,
+              "y": 40
             },
             "size": {
               "width": 112.5,
@@ -220,28 +220,28 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "bd3f1f6f-dacf-487c-a977-51bbe4351d49"
+                  "id": "153955eb-57cb-4855-8cd1-f81644e71db9"
                 },
                 {
                   "group": "right",
-                  "id": "71ebbeb7-1460-4ed8-8434-0071494bbd38"
+                  "id": "a05692a4-6712-4d97-9964-84bad8ed7c31"
                 },
                 {
                   "group": "bottom",
-                  "id": "9cdd3203-cc81-4a95-a9a0-a69d16819bbd"
+                  "id": "0db3e927-0339-4b5e-a037-55e00d40eda3"
                 },
                 {
                   "group": "left",
-                  "id": "4039df2e-7b5f-4b2f-a25a-1788903003a3"
+                  "id": "27d78f95-7623-4018-ad09-dd3669f7077b"
                 }
               ]
             },
-            "id": "56614c85-394f-438b-894d-bd79dc542c2f",
+            "id": "2840cd55-89a2-4d78-9809-73f244b64a51",
             "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
-              "description": "Administrators managing accounts",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -251,16 +251,248 @@
           },
           {
             "position": {
-              "x": 319.25,
-              "y": 60
+              "x": 540,
+              "y": 40
             },
             "size": {
-              "width": 80,
-              "height": 80
+              "width": 112.5,
+              "height": 60
             },
             "attrs": {
               "text": {
-                "text": "API\nGateway"
+                "text": "Attacker"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "153955eb-57cb-4855-8cd1-f81644e71db9"
+                },
+                {
+                  "group": "right",
+                  "id": "a05692a4-6712-4d97-9964-84bad8ed7c31"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0db3e927-0339-4b5e-a037-55e00d40eda3"
+                },
+                {
+                  "group": "left",
+                  "id": "27d78f95-7623-4018-ad09-dd3669f7077b"
+                }
+              ]
+            },
+            "id": "aca6dd65-53ff-4715-af70-52f67d0ed916",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Attacker",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 765,
+              "y": 40
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "External\nPayment\nGateway"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "153955eb-57cb-4855-8cd1-f81644e71db9"
+                },
+                {
+                  "group": "right",
+                  "id": "a05692a4-6712-4d97-9964-84bad8ed7c31"
+                },
+                {
+                  "group": "bottom",
+                  "id": "0db3e927-0339-4b5e-a037-55e00d40eda3"
+                },
+                {
+                  "group": "left",
+                  "id": "27d78f95-7623-4018-ad09-dd3669f7077b"
+                }
+              ]
+            },
+            "id": "6575990f-1fc8-4f07-b1fb-1c4b2718443d",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Actor",
+              "name": "External\nPayment\nGateway",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 101.25,
+              "y": 175
+            },
+            "size": {
+              "width": 90,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Login\nService"
               },
               "body": {
                 "stroke": "#333333",
@@ -336,28 +568,28 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "2afc9206-6f2d-40b8-9222-a61d620f520d"
+                  "id": "e73acfab-b19f-45fa-ab42-48b9a7c041f7"
                 },
                 {
                   "group": "right",
-                  "id": "81ff89c5-1d41-4ba5-a2ca-97edf278726e"
+                  "id": "65171a17-8102-4a67-a475-31ff04533d51"
                 },
                 {
                   "group": "bottom",
-                  "id": "48138316-b877-4b41-ada8-e98dc3056ef5"
+                  "id": "4ba16168-3c48-4a92-bc95-c18c3d8e95f0"
                 },
                 {
                   "group": "left",
-                  "id": "f1cf5f54-8900-4292-9c68-399867cc6b4c"
+                  "id": "f63289e5-6e50-4f12-aec4-92786ac5d928"
                 }
               ]
             },
-            "id": "b29624bc-cc50-4ef0-a148-338029fb7ec4",
+            "id": "4010bc21-f6fa-482b-b87d-6d777f7fc134",
             "zIndex": 5,
             "data": {
               "type": "tm.Process",
-              "name": "API\nGateway",
-              "description": "Recieves requests",
+              "name": "Login\nService",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -370,28 +602,25 @@
           },
           {
             "position": {
-              "x": 846.25,
-              "y": 70
+              "x": 318.25,
+              "y": 175
             },
             "size": {
-              "width": 120,
-              "height": 60
+              "width": 90,
+              "height": 90
             },
             "attrs": {
               "text": {
-                "text": "User Database"
+                "text": "Admin\nInterface"
               },
-              "topLine": {
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              },
-              "bottomLine": {
+              "body": {
+                "stroke": "#333333",
                 "strokeWidth": 1.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
-            "shape": "store",
+            "shape": "process",
             "ports": {
               "groups": {
                 "top": {
@@ -458,43 +687,280 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "58bd27aa-ccac-473c-81ef-fd2b90b1063b"
+                  "id": "e73acfab-b19f-45fa-ab42-48b9a7c041f7"
                 },
                 {
                   "group": "right",
-                  "id": "c16c6906-1d02-49b6-8f4d-10ec7c23a6b7"
+                  "id": "65171a17-8102-4a67-a475-31ff04533d51"
                 },
                 {
                   "group": "bottom",
-                  "id": "0ade9924-2766-450a-b76c-8c2dccd5ef96"
+                  "id": "4ba16168-3c48-4a92-bc95-c18c3d8e95f0"
                 },
                 {
                   "group": "left",
-                  "id": "39324c42-229a-44d2-a9e1-3a589338e10a"
+                  "id": "f63289e5-6e50-4f12-aec4-92786ac5d928"
                 }
               ]
             },
-            "id": "2d9fc6df-bf6b-4b0f-bb97-2a706b69bacb",
-            "zIndex": 7,
+            "id": "869aa9e5-7452-47cf-a27d-bd856d3a80aa",
+            "zIndex": 6,
             "data": {
-              "type": "tm.Store",
-              "name": "User Database",
-              "description": "Stores user info, passwords",
+              "type": "tm.Process",
+              "name": "Admin\nInterface",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
-              "isALog": false,
-              "isEncrypted": false,
-              "isSigned": false,
-              "storesCredentials": false,
-              "storesInventory": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
               "threats": []
             }
           },
           {
             "position": {
-              "x": 72.5,
-              "y": 200
+              "x": 541.25,
+              "y": 185
+            },
+            "size": {
+              "width": 110,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Session\nManagement\nService"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e73acfab-b19f-45fa-ab42-48b9a7c041f7"
+                },
+                {
+                  "group": "right",
+                  "id": "65171a17-8102-4a67-a475-31ff04533d51"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4ba16168-3c48-4a92-bc95-c18c3d8e95f0"
+                },
+                {
+                  "group": "left",
+                  "id": "f63289e5-6e50-4f12-aec4-92786ac5d928"
+                }
+              ]
+            },
+            "id": "f63f85b7-42bb-451c-ba8d-349722516c25",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Process",
+              "name": "Session\nManagement\nService",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 777.5,
+              "y": 175
+            },
+            "size": {
+              "width": 100,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Notification\nService"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "e73acfab-b19f-45fa-ab42-48b9a7c041f7"
+                },
+                {
+                  "group": "right",
+                  "id": "65171a17-8102-4a67-a475-31ff04533d51"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4ba16168-3c48-4a92-bc95-c18c3d8e95f0"
+                },
+                {
+                  "group": "left",
+                  "id": "f63289e5-6e50-4f12-aec4-92786ac5d928"
+                }
+              ]
+            },
+            "id": "b6e73a42-b110-4bff-96d0-26d3c2546083",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Process",
+              "name": "Notification\nService",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 765,
+              "y": 433
             },
             "size": {
               "width": 120,
@@ -581,28 +1047,28 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "58bd27aa-ccac-473c-81ef-fd2b90b1063b"
+                  "id": "837a0656-dd4c-4d4a-841b-160e371b05fb"
                 },
                 {
                   "group": "right",
-                  "id": "c16c6906-1d02-49b6-8f4d-10ec7c23a6b7"
+                  "id": "24567379-2a52-4b55-b025-2ea4afe2af5b"
                 },
                 {
                   "group": "bottom",
-                  "id": "0ade9924-2766-450a-b76c-8c2dccd5ef96"
+                  "id": "48e49c69-c69a-4a00-ac37-b182949fb10f"
                 },
                 {
                   "group": "left",
-                  "id": "39324c42-229a-44d2-a9e1-3a589338e10a"
+                  "id": "79b89502-7164-4cb6-ac65-d4f3b4298d1b"
                 }
               ]
             },
-            "id": "a4118d29-bb22-47b1-b3c6-0c33bf4e4a6f",
-            "zIndex": 8,
+            "id": "86349400-e50e-467b-ad90-27093fe274d0",
+            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Transaction Logs",
-              "description": "Stores payment records",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
@@ -616,16 +1082,889 @@
           },
           {
             "position": {
-              "x": 861.25,
-              "y": 220
+              "x": 101.25,
+              "y": 363
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Users Database"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "837a0656-dd4c-4d4a-841b-160e371b05fb"
+                },
+                {
+                  "group": "right",
+                  "id": "24567379-2a52-4b55-b025-2ea4afe2af5b"
+                },
+                {
+                  "group": "bottom",
+                  "id": "48e49c69-c69a-4a00-ac37-b182949fb10f"
+                },
+                {
+                  "group": "left",
+                  "id": "79b89502-7164-4cb6-ac65-d4f3b4298d1b"
+                }
+              ]
+            },
+            "id": "4e8352dd-bd4f-4569-ba4d-ca7608c36db3",
+            "zIndex": 10,
+            "data": {
+              "type": "tm.Store",
+              "name": "Users Database",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "User \nLogin\nRequest",
+              "description": "Sends username and password to log in",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "User \nLogin\nRequest"
+            ],
+            "id": "b2cf6fab-ba27-4c9b-887e-4ebc6979e32a",
+            "source": {
+              "x": 119,
+              "y": 100
+            },
+            "target": {
+              "cell": "4010bc21-f6fa-482b-b87d-6d777f7fc134",
+              "port": "e73acfab-b19f-45fa-ab42-48b9a7c041f7"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Generate\nSession\nToken",
+              "description": "Creates a session token after successful login",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Generate\nSession\nToken"
+            ],
+            "id": "c90c21f0-3309-43e0-ae1a-1285e46660d5",
+            "source": {
+              "x": 142,
+              "y": 265
+            },
+            "target": {
+              "cell": "f63f85b7-42bb-451c-ba8d-349722516c25",
+              "port": "4ba16168-3c48-4a92-bc95-c18c3d8e95f0"
+            },
+            "vertices": [
+              {
+                "x": 350,
+                "y": 300
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Session\nToken\nValidation",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Session\nToken\nValidation"
+            ],
+            "id": "60254ef7-df78-4139-90c4-b6238cd0e5ec",
+            "source": {
+              "x": 641,
+              "y": 233
+            },
+            "target": {
+              "cell": "9d2a0241-a883-4dab-94d9-eb71e01b9c67",
+              "port": "65171a17-8102-4a67-a475-31ff04533d51"
+            },
+            "vertices": [
+              {
+                "x": 590,
+                "y": 320
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Retrieve\nUser\nProfile",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Retrieve\nUser\nProfile"
+            ],
+            "id": "d11ba055-10a6-42f4-a3e4-c886a33f7293",
+            "source": {
+              "x": 440,
+              "y": 380
+            },
+            "target": {
+              "cell": "4e8352dd-bd4f-4569-ba4d-ca7608c36db3",
+              "port": "24567379-2a52-4b55-b025-2ea4afe2af5b"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validate\nAdmin\nSession",
+              "description": "Validates session for privileged access",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Validate\nAdmin\nSession"
+            ],
+            "id": "8b200ede-0a43-4bf8-8eb2-ce088fdf8564",
+            "source": {
+              "x": 408,
+              "y": 215
+            },
+            "target": {
+              "cell": "f63f85b7-42bb-451c-ba8d-349722516c25",
+              "port": "f63289e5-6e50-4f12-aec4-92786ac5d928"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Access\nTransaction\nLogs",
+              "description": "Admin reviews historical payment and system logs",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Access\nTransaction\nLogs"
+            ],
+            "id": "cd7f2fb2-9fd5-4c29-9f90-023be6ddc243",
+            "source": {
+              "x": 363,
+              "y": 265
+            },
+            "target": {
+              "cell": "86349400-e50e-467b-ad90-27093fe274d0",
+              "port": "79b89502-7164-4cb6-ac65-d4f3b4298d1b"
+            },
+            "vertices": [
+              {
+                "x": 560,
+                "y": 360
+              },
+              {
+                "x": 610,
+                "y": 390
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Trigger\nUser\nNotification",
+              "description": "Sends request to notify the user",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Trigger\nUser\nNotification"
+            ],
+            "id": "9c62a4a4-5250-44dd-ba24-e5fabfed0d25",
+            "source": {
+              "x": 470,
+              "y": 433
+            },
+            "target": {
+              "cell": "b6e73a42-b110-4bff-96d0-26d3c2546083",
+              "port": "4ba16168-3c48-4a92-bc95-c18c3d8e95f0"
+            },
+            "vertices": [
+              {
+                "x": 680,
+                "y": 350
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Deliver Notification",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Deliver Notification"
+            ],
+            "id": "31f6d3a3-1320-436a-b6d8-eb7b53396ea6",
+            "source": {
+              "cell": "b6e73a42-b110-4bff-96d0-26d3c2546083",
+              "port": "65171a17-8102-4a67-a475-31ff04533d51"
+            },
+            "target": {
+              "cell": "8ddb3e65-40db-43a5-ae79-f6d4bd2789f0",
+              "port": "153955eb-57cb-4855-8cd1-f81644e71db9"
+            },
+            "vertices": [
+              {
+                "x": 860,
+                "y": 20
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Log \nTransaction \nDetails",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Log \nTransaction \nDetails"
+            ],
+            "id": "24a365e4-a920-4ae4-9528-ee7f5fd9b37b",
+            "source": {
+              "x": 501,
+              "y": 423
+            },
+            "target": {
+              "cell": "86349400-e50e-467b-ad90-27093fe274d0",
+              "port": "48e49c69-c69a-4a00-ac37-b182949fb10f"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Send\nPayment for\nprocessing",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Send\nPayment for\nprocessing"
+            ],
+            "id": "85165157-bd47-42ef-86d3-2bc577508509",
+            "source": {
+              "x": 531,
+              "y": 390
+            },
+            "target": {
+              "cell": "6575990f-1fc8-4f07-b1fb-1c4b2718443d",
+              "port": "0db3e927-0339-4b5e-a037-55e00d40eda3"
+            },
+            "vertices": [
+              {
+                "x": 960,
+                "y": 340
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Receive\nPayment\nResponse",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Receive\nPayment\nResponse"
+            ],
+            "id": "81adddcb-6ae0-48c9-954e-8b724bd29ff4",
+            "source": {
+              "x": 878,
+              "y": 65
+            },
+            "target": {
+              "cell": "9d2a0241-a883-4dab-94d9-eb71e01b9c67",
+              "port": "4ba16168-3c48-4a92-bc95-c18c3d8e95f0"
+            },
+            "vertices": [
+              {
+                "x": 878,
+                "y": 280
+              },
+              {
+                "x": 830,
+                "y": 320
+              },
+              {
+                "x": 780,
+                "y": 360
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Brute\nForce\nLogin\nAttempt",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Brute\nForce\nLogin\nAttempt"
+            ],
+            "id": "c0bdd745-e571-4fdf-ba3c-62ff587744d0",
+            "source": {
+              "x": 541,
+              "y": 70
+            },
+            "target": {
+              "cell": "4010bc21-f6fa-482b-b87d-6d777f7fc134",
+              "port": "65171a17-8102-4a67-a475-31ff04533d51"
+            },
+            "vertices": [
+              {
+                "x": 430,
+                "y": 130
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin\nLogin\nRequest",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin\nLogin\nRequest"
+            ],
+            "id": "b771b8f0-2555-4940-91a3-1aece8228b40",
+            "source": {
+              "x": 354,
+              "y": 100
+            },
+            "target": {
+              "cell": "869aa9e5-7452-47cf-a27d-bd856d3a80aa",
+              "port": "f63289e5-6e50-4f12-aec4-92786ac5d928"
+            },
+            "vertices": [
+              {
+                "x": 280,
+                "y": 160
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Admin\nPrivilege\nExploit\nAttempt",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Admin\nPrivilege\nExploit\nAttempt"
+            ],
+            "id": "fd6e0e1b-5cc9-4de3-b86f-0984c107c285",
+            "source": {
+              "x": 653,
+              "y": 69
+            },
+            "target": {
+              "cell": "869aa9e5-7452-47cf-a27d-bd856d3a80aa",
+              "port": "65171a17-8102-4a67-a475-31ff04533d51"
+            },
+            "vertices": [
+              {
+                "x": 653,
+                "y": 120
+              },
+              {
+                "x": 520,
+                "y": 140
+              },
+              {
+                "x": 470,
+                "y": 180
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Malicious\nAPI\nAttack",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Malicious\nAPI\nAttack"
+            ],
+            "id": "6462115b-10d3-4002-bfc3-6973be66442d",
+            "source": {
+              "x": 586,
+              "y": 100
+            },
+            "target": {
+              "cell": "9d2a0241-a883-4dab-94d9-eb71e01b9c67",
+              "port": "e73acfab-b19f-45fa-ab42-48b9a7c041f7"
+            },
+            "vertices": [
+              {
+                "x": 730,
+                "y": 230
+              },
+              {
+                "x": 650,
+                "y": 333
+              }
+            ]
+          },
+          {
+            "position": {
+              "x": 440,
+              "y": 333
             },
             "size": {
               "width": 90,
-              "height": 80
+              "height": 100
             },
             "attrs": {
               "text": {
-                "text": "Admin \nInterface"
+                "text": "API Gateway"
               },
               "body": {
                 "stroke": "#333333",
@@ -701,940 +2040,28 @@
               "items": [
                 {
                   "group": "top",
-                  "id": "2afc9206-6f2d-40b8-9222-a61d620f520d"
+                  "id": "e73acfab-b19f-45fa-ab42-48b9a7c041f7"
                 },
                 {
                   "group": "right",
-                  "id": "81ff89c5-1d41-4ba5-a2ca-97edf278726e"
+                  "id": "65171a17-8102-4a67-a475-31ff04533d51"
                 },
                 {
                   "group": "bottom",
-                  "id": "48138316-b877-4b41-ada8-e98dc3056ef5"
+                  "id": "4ba16168-3c48-4a92-bc95-c18c3d8e95f0"
                 },
                 {
                   "group": "left",
-                  "id": "f1cf5f54-8900-4292-9c68-399867cc6b4c"
+                  "id": "f63289e5-6e50-4f12-aec4-92786ac5d928"
                 }
               ]
             },
-            "id": "b14b760f-4dee-4b60-abde-0e3e57ce424d",
-            "zIndex": 9,
-            "data": {
-              "type": "tm.Process",
-              "name": "Admin \nInterface",
-              "description": "Provides privileged access to admin users",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Payment Request",
-              "description": "API Gateway sends payment details for processing after validating user and session",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Payment Request"
-            ],
-            "id": "88d9dfc6-b0b2-425c-a5bd-b3efcbd5a46e",
-            "source": {
-              "cell": "b29624bc-cc50-4ef0-a148-338029fb7ec4",
-              "port": "48138316-b877-4b41-ada8-e98dc3056ef5"
-            },
-            "target": {
-              "cell": "6021b51c-ec9d-47a5-954f-3c164dceb04e",
-              "port": "2afc9206-6f2d-40b8-9222-a61d620f520d"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Payment\nAuthorization",
-              "description": "Payment Processing Software communicates with third-party gateway to authorize and complete payments",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Payment\nAuthorization"
-            ],
-            "id": "332f63a5-e21b-4cc6-8174-16d0c714b220",
-            "source": {
-              "cell": "6021b51c-ec9d-47a5-954f-3c164dceb04e",
-              "port": "48138316-b877-4b41-ada8-e98dc3056ef5"
-            },
-            "target": {
-              "cell": "51d2723b-0900-41d9-8753-44b2c4bd2e90",
-              "port": "bd3f1f6f-dacf-487c-a977-51bbe4351d49"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "User\nRequest",
-              "description": "User sends requests such as login, payment initiation or viewing transaction history",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "User\nRequest"
-            ],
-            "id": "211af811-feb5-4849-bc94-5b564cf313c3",
-            "source": {
-              "cell": "d9d23d50-329c-4a1e-b4a2-edcbea2a6e52",
-              "port": "71ebbeb7-1460-4ed8-8434-0071494bbd38"
-            },
-            "target": {
-              "cell": "b29624bc-cc50-4ef0-a148-338029fb7ec4",
-              "port": "f1cf5f54-8900-4292-9c68-399867cc6b4c"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Log\nPayment\nTransactions",
-              "description": "Records details of processed transactions for auditing and tracking",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Log\nPayment\nTransactions"
-            ],
-            "id": "490865d4-88af-47e2-ae59-ae515f74107d",
-            "source": {
-              "cell": "6021b51c-ec9d-47a5-954f-3c164dceb04e",
-              "port": "f1cf5f54-8900-4292-9c68-399867cc6b4c"
-            },
-            "target": {
-              "cell": "a4118d29-bb22-47b1-b3c6-0c33bf4e4a6f",
-              "port": "c16c6906-1d02-49b6-8f4d-10ec7c23a6b7"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Admin \nCommands",
-              "description": "Admin sends management commands, such as user or system configurations through the interface",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Admin \nCommands"
-            ],
-            "id": "f161fa5a-d4e3-46bf-8a42-89d0cc6aaa29",
-            "source": {
-              "cell": "56614c85-394f-438b-894d-bd79dc542c2f",
-              "port": "bd3f1f6f-dacf-487c-a977-51bbe4351d49"
-            },
-            "target": {
-              "cell": "b14b760f-4dee-4b60-abde-0e3e57ce424d",
-              "port": "48138316-b877-4b41-ada8-e98dc3056ef5"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Admin \nData\nAccess",
-              "description": "Admin interface reads/writes user data in the database for management purposes",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Admin \nData\nAccess"
-            ],
-            "id": "805d9dc5-072d-42f8-92ea-67790fe11707",
-            "source": {
-              "cell": "b14b760f-4dee-4b60-abde-0e3e57ce424d",
-              "port": "2afc9206-6f2d-40b8-9222-a61d620f520d"
-            },
-            "target": {
-              "cell": "2d9fc6df-bf6b-4b0f-bb97-2a706b69bacb",
-              "port": "0ade9924-2766-450a-b76c-8c2dccd5ef96"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Session \nData",
-              "description": "Session Management stores and retrieves session-related data such as active login tokens",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Session \nData"
-            ],
-            "id": "f23ca72a-3b25-4c1b-b975-2dbcbc8c9f97",
-            "source": {
-              "cell": "1397aef8-3007-42bc-be02-e9b763b6393e",
-              "port": "81ff89c5-1d41-4ba5-a2ca-97edf278726e"
-            },
-            "target": {
-              "cell": "2d9fc6df-bf6b-4b0f-bb97-2a706b69bacb",
-              "port": "39324c42-229a-44d2-a9e1-3a589338e10a"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Unauthorized\nAccess\nAttempt",
-              "description": "Attempts by attacker to gain control or admin privileges via Admin Interface",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Unauthorized\nAccess\nAttempt"
-            ],
-            "id": "1ce6c13f-dfc1-4bab-93bd-c9c6dc58ac83",
-            "source": {
-              "x": 636,
-              "y": 130
-            },
-            "target": {
-              "cell": "b14b760f-4dee-4b60-abde-0e3e57ce424d",
-              "port": "f1cf5f54-8900-4292-9c68-399867cc6b4c"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Session\nValidation",
-              "description": "API Gateway forwards session tokens or cookies to validate user sessions or authentication",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Session\nValidation"
-            ],
-            "id": "fe493806-4dbf-49c6-8228-83ca563c2e2b",
-            "source": {
-              "cell": "b29624bc-cc50-4ef0-a148-338029fb7ec4",
-              "port": "2afc9206-6f2d-40b8-9222-a61d620f520d"
-            },
-            "target": {
-              "cell": "1397aef8-3007-42bc-be02-e9b763b6393e",
-              "port": "48138316-b877-4b41-ada8-e98dc3056ef5"
-            },
-            "vertices": []
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Malicious\nRequest",
-              "description": "Attacker sends harmful or unauthorized requests trying to exploit vulnerabilities",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Malicious\nRequest"
-            ],
-            "id": "1407c8d8-f91b-4b08-bd87-e2bb97d70203",
-            "source": {
-              "cell": "4735b0f1-466a-4f82-965d-a709c0e7c493",
-              "port": "4039df2e-7b5f-4b2f-a25a-1788903003a3"
-            },
-            "target": {
-              "cell": "b29624bc-cc50-4ef0-a148-338029fb7ec4",
-              "port": "81ff89c5-1d41-4ba5-a2ca-97edf278726e"
-            }
-          },
-          {
-            "position": {
-              "x": 303,
-              "y": 350
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "External \nPayment\nGateway"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
+            "id": "9d2a0241-a883-4dab-94d9-eb71e01b9c67",
             "zIndex": 11,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "bd3f1f6f-dacf-487c-a977-51bbe4351d49"
-                },
-                {
-                  "group": "right",
-                  "id": "71ebbeb7-1460-4ed8-8434-0071494bbd38"
-                },
-                {
-                  "group": "bottom",
-                  "id": "9cdd3203-cc81-4a95-a9a0-a69d16819bbd"
-                },
-                {
-                  "group": "left",
-                  "id": "4039df2e-7b5f-4b2f-a25a-1788903003a3"
-                }
-              ]
-            },
-            "id": "51d2723b-0900-41d9-8753-44b2c4bd2e90",
-            "data": {
-              "type": "tm.Actor",
-              "name": "External \nPayment\nGateway",
-              "description": "Validates payment transactions",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 548.75,
-              "y": 70
-            },
-            "size": {
-              "width": 112.5,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "Attacker"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "bd3f1f6f-dacf-487c-a977-51bbe4351d49"
-                },
-                {
-                  "group": "right",
-                  "id": "71ebbeb7-1460-4ed8-8434-0071494bbd38"
-                },
-                {
-                  "group": "bottom",
-                  "id": "9cdd3203-cc81-4a95-a9a0-a69d16819bbd"
-                },
-                {
-                  "group": "left",
-                  "id": "4039df2e-7b5f-4b2f-a25a-1788903003a3"
-                }
-              ]
-            },
-            "id": "4735b0f1-466a-4f82-965d-a709c0e7c493",
-            "zIndex": 12,
-            "data": {
-              "type": "tm.Actor",
-              "name": "Attacker",
-              "description": "External malicious party",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "providesAuthentication": false,
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 319.25,
-              "y": 190
-            },
-            "size": {
-              "width": 80,
-              "height": 80
-            },
-            "attrs": {
-              "text": {
-                "text": "Payment\nProcessing\nSoftware"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "2afc9206-6f2d-40b8-9222-a61d620f520d"
-                },
-                {
-                  "group": "right",
-                  "id": "81ff89c5-1d41-4ba5-a2ca-97edf278726e"
-                },
-                {
-                  "group": "bottom",
-                  "id": "48138316-b877-4b41-ada8-e98dc3056ef5"
-                },
-                {
-                  "group": "left",
-                  "id": "f1cf5f54-8900-4292-9c68-399867cc6b4c"
-                }
-              ]
-            },
-            "id": "6021b51c-ec9d-47a5-954f-3c164dceb04e",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
-              "name": "Payment\nProcessing\nSoftware",
-              "description": "Interacts with external gateway",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "handlesCardPayment": false,
-              "handlesGoodsOrServices": false,
-              "isWebApplication": false,
-              "privilegeLevel": "",
-              "threats": []
-            }
-          },
-          {
-            "position": {
-              "x": 309.25,
-              "y": -85
-            },
-            "size": {
-              "width": 100,
-              "height": 90
-            },
-            "attrs": {
-              "text": {
-                "text": "Session\nManagement\nService"
-              },
-              "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "process",
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "2afc9206-6f2d-40b8-9222-a61d620f520d"
-                },
-                {
-                  "group": "right",
-                  "id": "81ff89c5-1d41-4ba5-a2ca-97edf278726e"
-                },
-                {
-                  "group": "bottom",
-                  "id": "48138316-b877-4b41-ada8-e98dc3056ef5"
-                },
-                {
-                  "group": "left",
-                  "id": "f1cf5f54-8900-4292-9c68-399867cc6b4c"
-                }
-              ]
-            },
-            "id": "1397aef8-3007-42bc-be02-e9b763b6393e",
-            "zIndex": 14,
-            "data": {
-              "type": "tm.Process",
-              "name": "Session\nManagement\nService",
-              "description": "Manages login sessions",
+              "name": "API Gateway",
+              "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
               "hasOpenThreats": false,
