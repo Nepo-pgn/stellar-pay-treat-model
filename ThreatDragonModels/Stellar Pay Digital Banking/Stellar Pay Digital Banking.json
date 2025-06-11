@@ -33,8 +33,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "c7356444-1863-4d99-a939-f86a2d39b58a",
             "zIndex": -1,
+            "id": "c7356444-1863-4d99-a939-f86a2d39b58a",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "External Network",
@@ -59,8 +59,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "8b0e21c7-8a88-4ae1-8100-3167bd99b9a1",
             "zIndex": -1,
+            "id": "8b0e21c7-8a88-4ae1-8100-3167bd99b9a1",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Web Application Internal",
@@ -85,8 +85,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "b9c630b2-2418-4d0b-913a-2a7c3ee06658",
             "zIndex": -1,
+            "id": "b9c630b2-2418-4d0b-913a-2a7c3ee06658",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Web Application Internal",
@@ -111,8 +111,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "889214e2-1d31-47d8-9e97-2f671e52c5b3",
             "zIndex": -1,
+            "id": "889214e2-1d31-47d8-9e97-2f671e52c5b3",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Web Application Internal",
@@ -137,8 +137,8 @@
             },
             "visible": true,
             "shape": "trust-boundary-box",
-            "id": "4eb3cabb-f24e-4e08-858f-cd38665ff5ba",
             "zIndex": -1,
+            "id": "4eb3cabb-f24e-4e08-858f-cd38665ff5ba",
             "data": {
               "type": "tm.BoundaryBox",
               "name": "Data Storage Zone",
@@ -161,13 +161,14 @@
                 "text": "User"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -251,16 +252,40 @@
               ]
             },
             "id": "8ddb3e65-40db-43a5-ae79-f6d4bd2789f0",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "86e074fc-4e02-4e18-a40c-2a981d559dc6",
+                  "title": "Weak password policies",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Spoofing",
+                  "description": "Poor password enforcement allows attackers to alter user credentials",
+                  "mitigation": "Technical Controls: Enforce strong password rules & MFA\nAdministrative Controls: User awareness programs on credentials safety",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 3,
+                "repudiation": 0
+              }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           },
           {
@@ -284,6 +309,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -367,7 +393,6 @@
               ]
             },
             "id": "2840cd55-89a2-4d78-9809-73f244b64a51",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "Admin",
@@ -400,6 +425,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -483,7 +509,6 @@
               ]
             },
             "id": "aca6dd65-53ff-4715-af70-52f67d0ed916",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "Attacker",
@@ -516,6 +541,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -599,7 +625,6 @@
               ]
             },
             "id": "6575990f-1fc8-4f07-b1fb-1c4b2718443d",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "External\nPayment\nGateway",
@@ -625,13 +650,14 @@
                 "text": "Login\nService"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -715,19 +741,40 @@
               ]
             },
             "id": "4010bc21-f6fa-482b-b87d-6d777f7fc134",
-            "zIndex": 5,
             "data": {
               "type": "tm.Process",
               "name": "Login\nService",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "b2ee68c8-2591-4a53-bc81-dc4bcc5e6e7f",
+                  "title": "Credential theft",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Information disclosure",
+                  "description": "Phishing attacks or insecure data transmission expose login details ",
+                  "mitigation": "Technical Controls: SSL/TLS encryption & hashed passwords\nAdministrative Controls: Security training on phishing & engineering",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -744,13 +791,14 @@
                 "text": "Admin\nInterface"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -834,19 +882,40 @@
               ]
             },
             "id": "869aa9e5-7452-47cf-a27d-bd856d3a80aa",
-            "zIndex": 6,
             "data": {
               "type": "tm.Process",
               "name": "Admin\nInterface",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "42402470-cb16-4b34-ab90-5a7f1e1a77c2",
+                  "title": "Unauthorized privilege escalation",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Elevation of privilege",
+                  "description": "Weak role-based access control allows attackers to gain admin privileges",
+                  "mitigation": "Technical Controls: RBAC enforcement & least privilege principle\nAdministrative Controls: Admin access review & clearance validation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 2
+              }
             }
           },
           {
@@ -863,13 +932,14 @@
                 "text": "Session\nManagement\nService"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -953,19 +1023,40 @@
               ]
             },
             "id": "f63f85b7-42bb-451c-ba8d-349722516c25",
-            "zIndex": 7,
             "data": {
               "type": "tm.Process",
               "name": "Session\nManagement\nService",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "e6d23993-d4be-471e-a279-de0ee44c3dcf",
+                  "title": "Session hijacking",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Denial of service",
+                  "description": "Attackers take over sessions, leading to fraud and system disruption",
+                  "mitigation": "Technical Controls: Secure cookie handling, token expiration\nAdministrative: Employee training on secure login/logout behavior",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 2,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -989,6 +1080,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -1072,7 +1164,6 @@
               ]
             },
             "id": "b6e73a42-b110-4bff-96d0-26d3c2546083",
-            "zIndex": 8,
             "data": {
               "type": "tm.Process",
               "name": "Notification\nService",
@@ -1101,16 +1192,19 @@
                 "text": "Transaction Logs"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 9,
             "ports": {
               "groups": {
                 "top": {
@@ -1194,20 +1288,39 @@
               ]
             },
             "id": "86349400-e50e-467b-ad90-27093fe274d0",
-            "zIndex": 9,
             "data": {
               "type": "tm.Store",
               "name": "Transaction Logs",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "81ef766d-6970-43ff-aa04-a2f70e454e3f",
+                  "title": "Fraudulent transacton insertion",
+                  "status": "Open",
+                  "severity": "Low",
+                  "type": "Tampering",
+                  "description": "Attackers modify logs to cover up unauthorized financial transactions",
+                  "mitigation": "Technical Controls: Tamper-proof logging & block chain certification\nAdministrative Controls: financial transaction monitoring systems",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -1224,16 +1337,19 @@
                 "text": "Users Database"
               },
               "topLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               },
               "bottomLine": {
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 10,
             "ports": {
               "groups": {
                 "top": {
@@ -1317,20 +1433,39 @@
               ]
             },
             "id": "4e8352dd-bd4f-4569-ba4d-ca7608c36db3",
-            "zIndex": 10,
             "data": {
               "type": "tm.Store",
               "name": "Users Database",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "isALog": false,
               "isEncrypted": false,
               "isSigned": false,
               "storesCredentials": false,
               "storesInventory": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "a7d9957e-aa27-42bb-b514-571485c9f337",
+                  "title": "Data modification",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Repudiation",
+                  "description": "Lack of validation enables unauthorized changes to financial records",
+                  "mitigation": "Technical Controls: Implement database integrity checks & encryption\nAdministrative Controls: Regular audits for unauthorized data changes",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 2,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
             }
           },
           {
@@ -1663,7 +1798,13 @@
             "target": {
               "cell": "86349400-e50e-467b-ad90-27093fe274d0",
               "port": "48e49c69-c69a-4a00-ac37-b182949fb10f"
-            }
+            },
+            "vertices": [
+              {
+                "x": 850,
+                "y": 460
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -2057,13 +2198,14 @@
                 "text": "API Gateway"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -2147,19 +2289,40 @@
               ]
             },
             "id": "9d2a0241-a883-4dab-94d9-eb71e01b9c67",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "API Gateway",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "7b76f675-ae70-4c05-b193-462baa33d2f9",
+                  "title": "Unauthenticated API access",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Poor password enforcement allows attackers to alter user credentials",
+                  "mitigation": "Technical Controls: Token-based authentication, OAuth 2.0 enforcement\nAdministrative Controls: API access monitoring & restricted permissions",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           }
         ],
@@ -2168,6 +2331,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 0
+    "threatTop": 7
   }
 }
